@@ -23,7 +23,8 @@ jobs:
         distribution: 'temurin'
         cache: maven
         
-    - name: Build and deploy to cloudhub
+    - name: Build and publish
       run: mvn clean deploy --file pom.xml -s .maven/settings.xml
+    - name: Build and deploy to cloudhub
       run: mvn clean deploy -DmuleDeploy -DmuleVersion=4.9.7 --file pom.xml -s .maven/settings.xml
 
