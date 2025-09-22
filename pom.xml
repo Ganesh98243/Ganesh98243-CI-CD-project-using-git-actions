@@ -4,7 +4,7 @@
 
 	<groupId>c1ead25f-ad93-44b6-bdcd-30d1e27f7724</groupId>
 	<artifactId>cicd-using-github-action</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<packaging>mule-application</packaging>
 
 	<name>cicd-using-github-action</name>
